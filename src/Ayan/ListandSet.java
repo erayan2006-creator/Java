@@ -1,6 +1,7 @@
 package Ayan;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashSet;
 
 public class ListandSet {
@@ -13,6 +14,7 @@ public class ListandSet {
         a.add(400);
         a.add(100);
         a.add(500);
+        Collections.addAll(a, 34, 67, 87, 90, 45);
         System.out.println(a);
         Integer[] array = a.toArray(new Integer[0]);
         for (Integer n : array){
